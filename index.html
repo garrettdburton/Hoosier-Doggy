@@ -79,7 +79,7 @@
         <section class="ftco-section bg-light ftco-intro">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 d-flex align-self-stretch px-4 ftco-animate">
+                    <div class="col-md-4 d-flex align-self-stretch px-4 mb-2 ftco-animate">
                         <div class="d-block services text-center">
                             <div class="icon d-flex align-items-center justify-content-center">
                                 <span class="flaticon-dog-eating"></span>
@@ -87,22 +87,11 @@
                             <div class="media-body">
                                 <h3 class="heading">Pet Daycare</h3>
 
-                                <a href="#services" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
+                                <a href="#daycare" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
                             </div>
                         </div>    
                     </div>
-                    <div class="col-md-4 d-flex align-self-stretch px-4 ftco-animate">
-                        <div class="d-block services text-center">
-                            <div class="icon d-flex align-items-center justify-content-center">
-                                <span class="flaticon-grooming"></span>
-                            </div>
-                            <div class="media-body">
-                                <h3 class="heading">Pet Grooming</h3>
-                                <a href="#services" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
-                            </div>
-                        </div>      
-                    </div>
-                    <div class="col-md-4 d-flex align-self-stretch px-4 ftco-animate">
+                    <div class="col-md-4 d-flex align-self-stretch px-4 mb-2 ftco-animate">
                         <div class="d-block services active text-center">
                             <div class="icon d-flex align-items-center justify-content-center">
                                 <span class="flaticon-blind"></span>
@@ -110,10 +99,22 @@
                             <div class="media-body">
                                 <h3 class="heading">Overnight Boarding</h3>
 
-                                <a href="#services" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
+                                <a href="#boarding" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
                             </div>
                         </div>      
                     </div>
+                    <div class="col-md-4 d-flex align-self-stretch px-4 mb-2 ftco-animate">
+                        <div class="d-block services text-center">
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <span class="flaticon-grooming"></span>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="heading">Pet Grooming</h3>
+                                <a href="#grooming" class="btn-custom d-flex align-items-center justify-content-center"><span class="fa fa-chevron-right"></span><i class="sr-only">Read more</i></a>
+                            </div>
+                        </div>      
+                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -293,25 +294,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 ftco-animate">
-                        <div class="block-7 h-100">
-                            <div class="img" style="background-image: url(images/pricing-1.jpg);"></div>
-                            <div class="text-center p-4">
-                                <span class="excerpt d-block">Pet Grooming</span>
-                                <span class="price"><sup>$</sup> <span class="number">10-45</span> <sub></sub></span>
-
-                                <ul class="pricing-text mb-5">
-                                    <li><span class="fa fa-check mr-2"></span>Brush and Wash</li>
-                                    <li><span class="fa fa-check mr-2"></span>Collar Wash</li>
-                                    <li><span class="fa fa-check mr-2"></span>Gentle Ear Cleaning</li>
-                                    <li><span class="fa fa-check mr-2"></span>Final Brush and Blow Out</li>
-                                </ul>
-
-                                <a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 ftco-animate">
-                        <div class="block-7 h-100">
+                        <div class="block-7 h-100" id="daycare">
                             <div class="img" style="background-image: url(images/pricing-2.jpg);"></div>
                             <div class="text-center p-4">
                                 <span class="excerpt d-block">Pet Daycare</span>
@@ -323,7 +306,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 ftco-animate">
-                        <div class="block-7 h-100">
+                        <div class="block-7 h-100" id="boarding">
                             <div class="img" style="background-image: url(images/pricing-3.jpg);"></div>
                             <div class="text-center p-4">
                                 <span class="excerpt d-block">Overnight Boarding</span>
@@ -331,6 +314,24 @@
 
                                 <p>We are dedicated to providing your canine family member with the best care possible. We want your dog to feel at home. We have beds, couches, toys, and blankets to make your pup comfortable! Staff is on-site 24/7. We provide everything except for food!
                                 </p>
+
+                                <a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ftco-animate">
+                        <div class="block-7 h-100" id="grooming">
+                            <div class="img" style="background-image: url(images/pricing-1.jpg);"></div>
+                            <div class="text-center p-4">
+                                <span class="excerpt d-block">Pet Grooming</span>
+                                <span class="price"><sup>$</sup> <span class="number">10-45</span> <sub></sub></span>
+
+                                <ul class="pricing-text mb-5">
+                                    <li><span class="fa fa-check mr-2"></span>Brush and Wash</li>
+                                    <li><span class="fa fa-check mr-2"></span>Collar Wash</li>
+                                    <li><span class="fa fa-check mr-2"></span>Gentle Ear Cleaning</li>
+                                    <li><span class="fa fa-check mr-2"></span>Final Brush and Blow Out</li>
+                                </ul>
 
                                 <a href="#" class="btn btn-primary d-block px-2 py-3">Get Started</a>
                             </div>
