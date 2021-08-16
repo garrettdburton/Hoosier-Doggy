@@ -8027,15 +8027,7 @@ h1, h2, h3, h4, h5,
   position: relative;
   z-index: 0;
   width: 100%;
-  background: #fd7e14;
-  background: #207dff;
-  background: -moz-linear-gradient(45deg, #207dff 0%, #fd7e14 100%);
-  background: -webkit-gradient(left bottom, right top, color-stop(0%, #207dff), color-stop(100%, #fd7e14));
-  background: -webkit-linear-gradient(45deg, #207dff 0%, #fd7e14 100%);
-  background: -o-linear-gradient(45deg, #207dff 0%, #fd7e14 100%);
-  background: -ms-linear-gradient(45deg, #207dff 0%, #fd7e14 100%);
-  background: linear-gradient(45deg, #207dff 0%, #fd7e14 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207dff', endColorstr='#fd7e14', GradientType=1 ); }
+  }
   .wrap .phone {
     z-index: 1; }
     .wrap .phone span {
